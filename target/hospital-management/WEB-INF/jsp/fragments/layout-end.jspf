@@ -1,0 +1,9 @@
+    </main>
+    <footer class="bg-white border-t border-slate-200 px-6 py-3 text-xs text-slate-500 flex items-center justify-between">
+      <div>© 2026 City Hospital, Dhaka — JSP + JDBC Based Web Application</div>
+      <div>v1.0.0 • Academic/demo use</div>
+    </footer>
+  </div>
+</div>
+</body>
+</html>

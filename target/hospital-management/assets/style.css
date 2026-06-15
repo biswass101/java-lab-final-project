@@ -1,0 +1,32 @@
+/* Supplemental styles only. Main UI styling is Tailwind utility classes in JSP files. */
+html, body {
+  scroll-behavior: smooth;
+}
+
+/* Keep long table text readable */
+td, th {
+  vertical-align: middle;
+}
+
+/* Subtle custom scrollbar for desktop */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+}
